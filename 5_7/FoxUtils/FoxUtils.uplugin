@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"EngineVersion": "5.7",
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "FoxUtils",
+	"Description": "100 essential Blueprint utility nodes every project needs. Strings, Arrays, Math, Actors, Debug, Traces, Delayed Loops, HISM/FISM, Camera, Audio, Save/Load, Inventory helpers. Free and part of the FoxToolkit ecosystem.",
+	"Category": "FoxToolkit",
+	"CreatedBy": "Alchemy Fox Studio",
+	"CreatedByURL": "https://www.fab.com/sellers/AlchemyFoxStudio",
+	"DocsURL": "https://alchemy-fox.de/utils/documentation.html",
+	"MarketplaceURL": "https://www.fab.com/sellers/AlchemyFoxStudio",
+	"SupportURL": "mailto:alchemyfoxstudio@gmail.com",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FoxUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [ "Win64", "Linux" ]
+		},
+		{
+			"Name": "FoxUtilsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [ "Win64", "Linux" ]
+		}
+	]
+}
